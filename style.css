@@ -1,0 +1,121 @@
+@media screen and (min-width:750px){
+    .img{
+        background-image: url(./images/Path\ 15.png);
+      height: 480px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+  
+  }
+     
+  
+  h1,
+  p{
+      color: white;
+      text-align: center;
+      margin-top: 5px;
+      font-family: 'Anuphan', sans-serif;
+      
+      
+  
+  }
+  h1{
+      font-size: 3.875rem;
+      margin-top: 0;
+  }
+  
+  form{
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 80px;
+  }
+  .label{
+      display: flex;
+      flex-direction: column;
+     font-family: sans-serif;
+  }
+  input{
+      width: 170px;
+      border: none;
+      background-color: #F6F6F6;
+      border-bottom: 2px solid #0F5380;
+      padding: 5px 20px;
+  }
+  .form-button{
+      display: flex;
+      align-items: flex-end;
+  }
+  button{
+      padding: 5px 25px;
+      color: white;
+      background-color: #0F5380;
+      border: none;
+  }
+}
+
+
+@media screen and (min-width:290px) and (max-width:750px){
+    .img{
+        background-image: url(./images/Path\ 15.png);
+      height: 400px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+  
+  }
+     
+  
+  h1,
+  p{
+      color: white;
+      text-align: center;
+      margin-top: 5px;
+      font-family: 'Anuphan', sans-serif;
+  }
+
+  h1{
+    font-size: 2.875rem;
+    margin-top: 0;
+    margin-top: -80px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+   font-family: sans-serif;
+}
+input{
+    width: 170px;
+    border: none;
+    background-color: #F6F6F6;
+    border-bottom: 2px solid #0F5380;
+    padding: 5px 20px;
+}
+.form-button{
+    display: flex;
+    align-items: flex-end;
+}
+button{
+    padding: 5px 25px;
+    color: white;
+    background-color: #0F5380;
+    border: none;
+}
+}
